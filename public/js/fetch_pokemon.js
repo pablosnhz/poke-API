@@ -16,6 +16,10 @@ export default function fetchpokemon() {
             $figure.appendChild($img);
             $figure.appendChild($figureCaption);
             fragment.appendChild($figure);
+            $img.style.display = "block";
+            $img.style.margin = "auto";
+            $figureCaption.style.textAlign = "center"; // Cambia el color del texto dentro del elemento figcaption a azul
+            $figureCaption.style.fontSize = "20px";
         });
         console.log(res);
         $pokeBox.appendChild(fragment);

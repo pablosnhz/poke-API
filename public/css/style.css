@@ -1,0 +1,10 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#poke-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
