@@ -7,3 +7,11 @@ export interface listPokemon {
         url: string
     }[]
 }
+
+export interface pokemon {
+    id: number,
+    name: string,
+    sprites: {
+        front_default: string
+    }
+}
